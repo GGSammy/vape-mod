@@ -1,4 +1,4 @@
-package com.sammy.vapemod;
+package com.weebly.rneptune;
 
 import net.minecraft.item.Item;
 

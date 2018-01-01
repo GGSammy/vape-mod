@@ -1,5 +1,5 @@
 
-package com.sammy.vapemod;
+package com.weebly.rneptune;
 
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
