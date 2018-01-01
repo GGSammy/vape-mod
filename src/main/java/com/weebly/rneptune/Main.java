@@ -52,7 +52,7 @@ public class Main {
 
 	@EventHandler
 	public void init(FMLInitializationEvent e) {
-		proxy.init();
+		proxy.init(e);
 	}
 
 	@EventHandler

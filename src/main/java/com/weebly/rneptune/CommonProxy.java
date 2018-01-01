@@ -12,7 +12,7 @@ public class CommonProxy {
 	    	
 	    }
 
-		public void init() {
+		public void init(FMLInitializationEvent e) {
 			
 		}
 
