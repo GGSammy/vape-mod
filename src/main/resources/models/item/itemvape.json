@@ -1,5 +1,5 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "vape:items/vape"
+        "layer0": "items/vape"
   }

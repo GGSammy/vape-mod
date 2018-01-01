@@ -35,7 +35,7 @@ public class Main {
 
 	}
 
-	@SidedProxy(clientSide = "com.sammy.vapemod.ClientProxy", serverSide = "com.weebly.rneptune.ServerProxy")
+	@SidedProxy(clientSide = "com.weebly.rneptune.ClientProxy", serverSide = "com.weebly.rneptune.ServerProxy")
 	public static CommonProxy proxy;
 
 	@Instance
