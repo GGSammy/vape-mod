@@ -1,7 +1,9 @@
-package com.weebly.rneptune;
+package com.weebly.rneptune.items;
 
 import java.util.HashSet;
 import java.util.Set;
+
+import com.weebly.rneptune.main.Reference;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;

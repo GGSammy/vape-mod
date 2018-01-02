@@ -1,5 +1,5 @@
 
-package com.weebly.rneptune;
+package com.weebly.rneptune.proxy;
 
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;

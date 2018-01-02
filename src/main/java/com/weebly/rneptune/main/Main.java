@@ -1,4 +1,7 @@
-package com.weebly.rneptune;
+package com.weebly.rneptune.main;
+
+import com.weebly.rneptune.items.ModItems;
+import com.weebly.rneptune.proxy.CommonProxy;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;

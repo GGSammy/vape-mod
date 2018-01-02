@@ -1,4 +1,4 @@
-package com.weebly.rneptune;
+package com.weebly.rneptune.main;
 
 public class Reference {
 	public static final String MODID = "vape";
