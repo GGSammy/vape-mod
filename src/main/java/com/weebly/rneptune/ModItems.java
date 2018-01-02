@@ -24,7 +24,7 @@ public class ModItems {
 	
 	
 	public static void init() {
-		vape = new ItemVape();
+		vape = new ItemVape("vape_diamond");
 	}
 	
 	
