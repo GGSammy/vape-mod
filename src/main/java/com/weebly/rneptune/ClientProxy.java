@@ -7,10 +7,16 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.relauncher.Side;
 
-public class ClientProxy extends CommonProxy {
+public class ClientProxy implements CommonProxy {
+	
+	@Override
+	public void preInit(FMLPreInitializationEvent e) {
+		
+	}
+	
 	@Override
 	public void init(FMLInitializationEvent e) {
-		if(e.getSide()== Side.CLIENT)
-			ModItems.registerRenders();
+		ModItems.registerRenders();
 	}
+	
 }

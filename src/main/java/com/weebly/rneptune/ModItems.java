@@ -23,7 +23,7 @@ public class ModItems {
 	public static Item vape;
 	
 	public static void init() {
-		vape = new ItemVape();
+		vape = new ItemVape("vape");
 	}
 	
 	
@@ -32,9 +32,7 @@ public class ModItems {
 	}
 	
 	public static void registerRenders() {
-		
-			registerRender(vape);
-		
+		registerRender(vape);
 	}
 	
 	private static void registerRender(Item item) {

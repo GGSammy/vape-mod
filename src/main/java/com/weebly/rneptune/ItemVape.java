@@ -4,9 +4,9 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 public class ItemVape extends Item {
-	public ItemVape() {
-		setUnlocalizedName(Main.VapeItems.VAPE.getUnlocalizedName());
-		setRegistryName(Main.VapeItems.VAPE.getRegistryName());
+	public ItemVape(String name) {
+		setUnlocalizedName(name);
+		setRegistryName(name);
         setCreativeTab(CreativeTabs.TOOLS);
 	}
 }
